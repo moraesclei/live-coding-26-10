@@ -1,0 +1,35 @@
+.accordion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    border: 1px solid #222222;
+    border-radius: 1rem;
+}
+.accordion:hover{
+    background-color: #55569E;
+    border-color: #55569E;
+    transition: 1s;
+}
+.accordion .trigger{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    color: #fdcc04;
+    background: #222222;
+    cursor: pointer;
+    border-radius: 17px;
+    text-decoration: none;
+}
+.accordion .trigger h2{
+    margin: 0;
+    font-size: 1.0rem;
+}
+.accordion .trigger:hover{
+    cursor: pointer;
+}
+
+
+
+
+
